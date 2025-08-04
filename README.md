@@ -1,5 +1,6 @@
+
 # Spotify-Streaming-Data-Analysis-with-SQL
-Project Category: Advanced
+Project Category: Advanced  
 [Click Here to get Dataset](https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset)
 
 ## Overview
@@ -34,6 +35,7 @@ CREATE TABLE spotify (
     most_played_on VARCHAR(50)
 );
 ```
+
 ## Project Steps
 
 ### 1. Data Exploration
@@ -43,28 +45,25 @@ Before diving into SQL, it’s important to understand the dataset thoroughly. T
 - `Album`: The album to which the track belongs.
 - `Album_type`: The type of album (e.g., single or album).
 - Various metrics such as `danceability`, `energy`, `loudness`, `tempo`, and more.
-  
+
 ### 2. Data Cleaning and Normalization
- Ensure consistent data types and handle missing values appropriately.
- 
+Ensure consistent data types and handle missing values appropriately.
+
 ### 3. Creating the Table
 Used `CREATE TABLE` with relevant datatypes and constraints as shown above.
-   
-### 4. Querying the Data
-Queries were categorized into Easy, Medium, and Advanced based on complexity.
- 
+
 ### 4. Querying the Data
 After the data is inserted, various SQL queries can be written to explore and analyze the data.
 
 #### Easy Queries
 - Simple data retrieval, filtering, and basic aggregations.
-  
+
 #### Medium Queries
 - More complex queries involving grouping, aggregation functions, and joins.
-  
+
 #### Advanced Queries
 - Nested subqueries, window functions, CTEs, and performance optimization.
-  
+
 ---
 
 ## 15 Practice Questions
@@ -89,7 +88,8 @@ After the data is inserted, various SQL queries can be written to explore and an
 3. Use a `WITH` clause to calculate the difference between the highest and lowest energy values for tracks in each album.
 4. Find tracks where the energy-to-liveness ratio is greater than 1.2.
 5. Calculate the cumulative sum of likes for tracks ordered by the number of views, using window functions.
-```sql
+
+---
 
 ## Technology Stack
 - **Database**: PostgreSQL
